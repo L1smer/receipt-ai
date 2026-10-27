@@ -1,10 +1,14 @@
+import { Button } from "@react-navigation/elements";
+import { useRouter } from "expo-router/build/exports";
 import { Text, View, StyleSheet } from "react-native";
 
 export default function Index() {
+  const router = useRouter();
+  
   return (
-    <View style={styles.container}>
-      <Text>Edit src/app/index.tsx to edit this screen.</Text>
-    </View>
+    <Button onPress={() => router.push("/scanner")}>
+      Open receipt scanner
+    </Button>
   );
 }
 
