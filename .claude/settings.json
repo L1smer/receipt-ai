@@ -1,4 +1,7 @@
 {
+  "env": {
+    "PYTHONHASHSEED": "0"
+  },
   "hooks": {
     "PreToolUse": [
       {
