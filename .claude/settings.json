@@ -1,28 +1,4 @@
 {
-  "hooks": {
-    "PreToolUse": [
-      {
-        "matcher": "Bash|Grep",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "C:/Users/maksi/.local/bin/graphify.EXE hook-guard search",
-            "timeout": 10
-          }
-        ]
-      },
-      {
-        "matcher": "Read|Glob",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "C:/Users/maksi/.local/bin/graphify.EXE hook-guard read",
-            "timeout": 10
-          }
-        ]
-      }
-    ]
-  },
   "enabledPlugins": {
     "andrej-karpathy-skills@karpathy-skills": true
   }

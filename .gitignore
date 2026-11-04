@@ -2,7 +2,10 @@
 __pycache__/
 .env
 data/
+graphify-out/
 models/
 mlruns/
 *.onnx
 .ipynb_checkpoints/
+# Claude Code personal settings
+.claude/settings.local.json
